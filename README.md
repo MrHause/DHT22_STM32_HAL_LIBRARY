@@ -4,8 +4,8 @@ That library is intended for usage a DHT22 sensor which allow measure a temperat
 with very specific timings. To create a microsecond delay is used TIM3. 
 
 ## Getting started
-Firs of all is require to set pin which is connected to the sensor as output or input. Then include copy library files
-to the project folder and include it. That library is simply to use, just call init function:
+Firs of all is require to set pin which is connected to the sensor as output or input. Then copy library files
+to the project directory and include DHT22.h. That library is simply to use, just call init function:
 ```
 void DHT22_Init(GPIO_TypeDef* Port, uint16_t Pin);
 ```
